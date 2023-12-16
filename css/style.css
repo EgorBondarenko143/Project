@@ -37,6 +37,36 @@ button:hover{
     background-color: rgb(0, 88, 195);
 }
 
+/* header */
+header{
+    position: absolute;
+    left: 0;
+    top: 0; 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0;
+    align-items: center
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+span{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.logo{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+
 /* welcome */
 .welcome{
     width: 100%;
@@ -63,11 +93,6 @@ button:hover{
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
-    padding: 0 var(--side-padding);
-
-    text-shadow: 0 0 2px var(--black);
-    backdrop-filter: brightness(0.8);
-    border-radius: 40px;
 }
 .welcome_body h1{
     padding-right: 20%;
