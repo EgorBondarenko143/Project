@@ -1,0 +1,48 @@
+@media (max-width: 900px){
+    .welcome{
+        padding: 8% var(--side-padding);
+    }
+    .info h1{
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    .about_us h1{
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    .about_us_body >*{
+        height: auto;
+    }
+    .about_us_text{
+        gap: 10px;
+        padding: 10px 3%;
+    }
+}
+@media (max-width: 800px){
+    header{
+        display: none;
+    }
+}
+
+@media (max-width: 700px){
+    :root{
+        --side-padding: 4%;
+    }
+    .info_body{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .about_us_body >*{
+        background-color: var(--light-gray);
+        border-radius: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .about_us_2{
+        flex-direction: column-reverse;
+    }
+}
+
